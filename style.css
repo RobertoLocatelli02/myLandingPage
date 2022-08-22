@@ -22,7 +22,7 @@ html {
   font-size: 3em;
 }
 .side {
-  min-height: 1000px;
+  height: 1450px;
   background: #333;
   position: absolute;
   top: 0;
@@ -81,6 +81,7 @@ html {
 .line {
   border-bottom: 1px solid #ffc107 !important;
   position: relative;
+  margin-bottom: 5px;
 }
 .line:before {
   content: "";
@@ -176,6 +177,7 @@ a{
 .timeline .event {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   position: relative;
+  padding: 3px;
 }
 .timeline .event:last-of-type {
 
@@ -188,7 +190,7 @@ a{
   top: 0;
 }
 .timeline .event:before {
-  left: -160px;
+  left: -180px;
   content: attr(data-date);
   text-align: right;
   font-weight: 100;
